@@ -81,7 +81,19 @@ What do you want to do with it?
 
 ```lisp
 (defn applier[f coll]
- (apply f coll))
+ (map f coll))
 
-(applier + '(1 2 3))
+(applier identity '(1 2 3))
+```
+
+another example:
+
+```lisp
+(applier inc '(1 2 3))
+
+(inc 0)
+
+(applier dec '(1 2 3))
+
+(dec 0)
 ```
