@@ -97,3 +97,9 @@ another example:
 
 (dec 0)
 ```
+
+it could be simplified to this:
+
+```lisp
+(def applier map)
+```
