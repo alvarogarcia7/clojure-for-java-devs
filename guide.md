@@ -70,3 +70,11 @@ What do you want to do with it?
 
 (add2 4)
 ```
+
+## Functions are first-class citizens
+
+```lisp
+(def o {:a 1 :b identity})
+
+((:b o) 5)
+```
