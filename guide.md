@@ -50,3 +50,13 @@ let's try mutating the state*:
 ```
 
 what is the value of ``listt``?
+
+### idiomatic use
+
+```lisp
+(def listt (cons 4 listt))
+```
+
+is not very idiomatic.
+
+What do you want to do with it?
