@@ -78,3 +78,10 @@ What do you want to do with it?
 
 ((:b o) 5)
 ```
+
+```lisp
+(defn applier[f coll]
+ (apply f coll))
+
+(applier + '(1 2 3))
+```
