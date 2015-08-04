@@ -60,3 +60,13 @@ what is the value of ``listt``?
 is not very idiomatic.
 
 What do you want to do with it?
+
+## Partial functions
+
+```lisp
+(defn add [a b] (+ a b))
+
+(def add2 (partial add 2))
+
+(add2 4)
+```
