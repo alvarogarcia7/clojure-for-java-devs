@@ -20,3 +20,9 @@ adding an element to the list
 ```lisp
 (conj '() 1)
 ```
+
+the order of inserting into the list is important:
+
+```lisp
+(conj '() 1 2 3 4)
+```
