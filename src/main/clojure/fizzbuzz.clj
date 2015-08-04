@@ -10,7 +10,7 @@
   (map
 	#(cond
 	(is-multiple-of? % 15) "FizzBuzz"
-	(= 0 (rem % 3)) "Fizz"
-	(= 0 (rem % 5)) "Buzz"
+	(is-multiple-of? % 3) "Fizz"
+	(is-multiple-of? % 5) "Buzz"
 	:else (str %))
   (range 1 (inc n))))
