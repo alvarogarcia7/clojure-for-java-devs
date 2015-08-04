@@ -40,3 +40,13 @@ the order of inserting into the list is important:
 ```lisp
 (def is-true? true)
 ```
+
+let's try mutating the state*:
+
+```lisp
+(def listt '(1 2 3))
+
+(cons 4 listt)
+```
+
+what is the value of ``listt``?
