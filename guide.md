@@ -26,3 +26,17 @@ the order of inserting into the list is important:
 ```lisp
 (conj '() 1 2 3 4)
 ```
+
+## variables
+
+```lisp
+(def variable 1)
+```
+
+```lisp
+(def other-symbols-as-well true)
+```
+
+```lisp
+(def is-true? true)
+```
